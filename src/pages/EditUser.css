@@ -57,3 +57,25 @@
     background-color: #b98b29;
   }
   
+
+  /* ✅ Responsive pour mobile */
+@media (max-width: 500px) {
+  .edit-user-form {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  .edit-user-form .form-input {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .edit-user-form h2 {
+    font-size: 20px;
+  }
+
+  .edit-user-form .form-button {
+    width: 100%;
+    font-size: 15px;
+  }
+}
